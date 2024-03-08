@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     
 jobs:
-  news_milvus:
+  cron:
     runs-on: ubuntu-latest
     steps:
       - name: News Milvus 
