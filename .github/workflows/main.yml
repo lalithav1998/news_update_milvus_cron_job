@@ -1,0 +1,12 @@
+name: News Milvus
+on:
+  schedule:
+    - cron: '0,30 * * * *'  # Runs every 30 minutes
+  workflow_dispatch:
+    
+jobs:
+  news_milvus:
+    runs-on: ubuntu-latest
+    steps:
+      - name: News Milvus 
+        run: curl -m 600 ${{ secrets.URL }}
