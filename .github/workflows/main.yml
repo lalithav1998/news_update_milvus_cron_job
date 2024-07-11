@@ -1,7 +1,7 @@
 name: News Milvus
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Runs every 30 minutes
+    - cron: '*/40 * * * *'  # Runs every 40 minutes
   workflow_dispatch:
 
     
